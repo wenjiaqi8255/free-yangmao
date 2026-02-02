@@ -64,6 +64,8 @@ jobs:
       HISTORY_RETENTION_DAYS: 90
       # 性能优化
       ENABLE_LINK_VALIDATION: false
+      # GitHub Token (自动提供，用于提高API速率限制)
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -74,7 +76,7 @@ jobs:
       - name: Setup dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq curl git
+          sudo apt-get install -y jq curl git bc
 
       - name: Verify dependencies
         run: |
