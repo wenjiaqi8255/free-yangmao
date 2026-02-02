@@ -202,8 +202,6 @@ jobs:
           name: history-index-${{ github.run_number }}
           path: docs/history/index.md
           retention-days: 90
-          path: docs/free-for-dev-最新资源.md
-          retention-days: 30
 
       - name: Notify on failure
         if: failure()
