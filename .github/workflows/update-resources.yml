@@ -1,0 +1,167 @@
+name: Update Free Resources
+
+on:
+  # 每天北京时间上午9点自动运行
+  schedule:
+    - cron: '0 1 * * *'
+
+  # 手动触发
+  workflow_dispatch:
+
+  # 推送到main/master分支时触发（可选）
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+      - 'config.sh'
+
+  # Pull Request时触发（可选）
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+jobs:
+  update:
+    name: Update Resources
+    runs-on: ubuntu-latest
+
+    # 设置超时时间（避免无限等待）
+    timeout-minutes: 15
+
+    # 安全的环境变量
+    env:
+      LOG_LEVEL: INFO
+      ENABLE_NOTIFICATIONS: false
+      ENABLE_FILE_LOG: true
+      DAYS_AGO: 90
+      MAX_RESOURCES: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl git
+
+      - name: Verify dependencies
+        run: |
+          echo "Checking dependencies..."
+          bash --version | head -n 1
+          jq --version
+          curl --version | head -n 1
+          git --version
+
+      - name: Make scripts executable
+        run: |
+          chmod +x scripts/*.sh
+          chmod +x scripts/lib/*.sh
+          chmod +x update.sh
+
+      - name: Create necessary directories
+        run: |
+          mkdir -p data logs tmp docs
+          touch logs/.gitkeep
+
+      - name: Run update pipeline
+        run: |
+          bash update.sh
+
+      - name: Check output
+        run: |
+          if [ -f "docs/free-for-dev-最新资源.md" ]; then
+            echo "✓ Output file exists"
+            wc -l docs/free-for-dev-最新资源.md
+          else
+            echo "✗ Output file not found"
+            exit 1
+          fi
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "date=$(date '+%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "time=$(date '+%H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Generate workflow summary
+        run: |
+          cat >> $GITHUB_STEP_SUMMARY << EOF
+          ## 📊 更新统计
+
+          ### 基本信息
+          - **执行时间**: ${{ steps.date.outputs.date }} ${{ steps.date.outputs.time }}
+          - **提交SHA**: ${{ github.sha }}
+          - **运行环境**: Ubuntu Latest
+
+          ### 文件变更
+          EOF
+
+          if [ -f "docs/free-for-dev-最新资源.md" ]; then
+            echo "- **输出文件**: \`docs/free-for-dev-最新资源.md\`" >> $GITHUB_STEP_SUMMARY
+            echo "- **文件大小**: $(wc -c < docs/free-for-dev-最新资源.md | awk '{print $1}') 字节" >> $GITHUB_STEP_SUMMARY
+            echo "- **行数**: $(wc -l < docs/free-for-dev-最新资源.md | awk '{print $1}') 行" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 资源预览" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          head -n 50 docs/free-for-dev-最新资源.md >> $GITHUB_STEP_SUMMARY || true
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # 添加所有变更
+          git add -A
+
+          # 检查是否有变更需要提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # 获取当前日期（安全的方式）
+            COMMIT_DATE=$(date '+%Y-%m-%d')
+            # 提交变更（使用变量而不是直接插值）
+            git commit -m "docs: 自动更新资源列表 ${COMMIT_DATE}"
+            # 推送到远程仓库
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 7
+
+      - name: Upload output
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: free-resources-${{ github.run_number }}
+          path: docs/free-for-dev-最新资源.md
+          retention-days: 30
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Resource update failed. Please check the logs."
+          echo "::group::Error logs"
+          tail -n 100 logs/*.log || echo "No logs found"
+          echo "::endgroup::"

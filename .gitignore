@@ -1,2 +1,17 @@
 .git/
 tmp/
+
+# Logs
+logs/*.log
+logs/launchd-*.log
+
+# Environment
+.env
+
+# Generated data files
+data/*.txt
+data/*.md
+
+# Keep directory structure
+!.gitkeep
+logs/.gitkeep
