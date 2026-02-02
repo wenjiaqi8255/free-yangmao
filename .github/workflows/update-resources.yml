@@ -1,12 +1,28 @@
 name: Update Free Resources
 
 on:
-  # 每天北京时间上午9点自动运行
+  # 每2天北京时间上午9点自动运行 (UTC 1:00)
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 1 */2 * *'
 
   # 手动触发
   workflow_dispatch:
+    inputs:
+      enable_history:
+        description: '启用历史记录'
+        required: false
+        type: boolean
+        default: true
+      enable_dedup:
+        description: '启用去重功能'
+        required: false
+        type: boolean
+        default: true
+      days_ago:
+        description: '查询天数'
+        required: false
+        type: number
+        default: 90
 
   # 推送到main/master分支时触发（可选）
   push:
@@ -42,6 +58,12 @@ jobs:
       ENABLE_FILE_LOG: true
       DAYS_AGO: 90
       MAX_RESOURCES: 15
+      # 新功能配置
+      ENABLE_HISTORY: ${{ inputs.enable_history || 'true' }}
+      ENABLE_DEDUP: ${{ inputs.enable_dedup || 'true' }}
+      HISTORY_RETENTION_DAYS: 90
+      # 性能优化
+      ENABLE_LINK_VALIDATION: false
 
     steps:
       - name: Checkout repository
@@ -102,6 +124,12 @@ jobs:
           - **执行时间**: ${{ steps.date.outputs.date }} ${{ steps.date.outputs.time }}
           - **提交SHA**: ${{ github.sha }}
           - **运行环境**: Ubuntu Latest
+          - **调度周期**: 每2天 UTC 1:00 (北京时间9:00)
+
+          ### 功能状态
+          - **历史记录**: ${{ inputs.enable_history || 'true' }}
+          - **去重功能**: ${{ inputs.enable_dedup || 'true' }}
+          - **查询天数**: ${{ inputs.days_ago || '90' }}
 
           ### 文件变更
           EOF
@@ -110,6 +138,15 @@ jobs:
             echo "- **输出文件**: \`docs/free-for-dev-最新资源.md\`" >> $GITHUB_STEP_SUMMARY
             echo "- **文件大小**: $(wc -c < docs/free-for-dev-最新资源.md | awk '{print $1}') 字节" >> $GITHUB_STEP_SUMMARY
             echo "- **行数**: $(wc -l < docs/free-for-dev-最新资源.md | awk '{print $1}') 行" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ inputs.enable_history || 'true' }}" = "true" ] && [ -f "docs/history/index.md" ]; then
+            echo "- **历史索引**: \`docs/history/index.md\`" >> $GITHUB_STEP_SUMMARY
+            echo "- **历史文档**: $(find docs/history -name "*.md" -type f | grep -v index.md | wc -l) 个" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ inputs.enable_dedup || 'true' }}" = "true" ] && [ -f "data/processed-commits.json" ]; then
+            echo "- **去重记录**: \`data/processed-commits.json\`" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -155,6 +192,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: free-resources-${{ github.run_number }}
+          path: docs/free-for-dev-最新资源.md
+          retention-days: 90
+
+      - name: Upload history index
+        if: success() && inputs.enable_history == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: history-index-${{ github.run_number }}
+          path: docs/history/index.md
+          retention-days: 90
           path: docs/free-for-dev-最新资源.md
           retention-days: 30
 
