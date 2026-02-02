@@ -13,6 +13,8 @@ PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 source "${PROJECT_ROOT}/config.sh"
 source "${SCRIPT_DIR}/lib/logger.sh"
 source "${SCRIPT_DIR}/lib/utils.sh"
+source "${SCRIPT_DIR}/lib/dedup.sh"
+source "${SCRIPT_DIR}/lib/history.sh"
 
 #############################################
 # 全局变量
@@ -20,6 +22,7 @@ source "${SCRIPT_DIR}/lib/utils.sh"
 PIPELINE_START_TIME=$(date +%s)
 STEP_TOTAL=6
 STEP_CURRENT=0
+SHOULD_SKIP_GENERATION=false
 
 #############################################
 # 信号处理
@@ -97,6 +100,31 @@ step_filter_additions() {
   local addition_count=$(wc -l < "$output_file" | tr -d ' ')
   log_info "筛选出 $addition_count 个新增资源提交"
   log_success "提交过滤完成"
+}
+
+# 步骤3.5: 去重检查（可选）
+step_dedup_check() {
+  if [ "${ENABLE_DEDUP:-false}" != "true" ]; then
+    log_debug "去重功能已禁用"
+    return 0
+  fi
+
+  ((STEP_CURRENT++))
+  log_step $STEP_CURRENT $STEP_TOTAL "检查是否有新内容..."
+
+  if ! check_new_content; then
+    log_info "没有新内容需要处理"
+
+    if [ "${NOTIFY_NO_NEW_CONTENT:-true}" = "true" ]; then
+      log_info "跳过文档生成"
+    fi
+
+    SHOULD_SKIP_GENERATION=true
+    return 0
+  fi
+
+  log_success "检测到新内容，继续处理"
+  return 0
 }
 
 # 步骤4: 获取资源详情
@@ -203,7 +231,7 @@ step_extract_services() {
       echo ""
     } >> "${PROJECT_ROOT}/${output_file}"
 
-  done < "${PROJECT_ROOT}/${DATA_DIR}/additions-commits.txt"
+  done < "${DATA_DIR}/additions-commits.txt"
 
   cd "$PROJECT_ROOT"
 
@@ -253,6 +281,41 @@ EOF
   local output_size=$(wc -c < "$output_file" | tr -d ' ')
   log_info "文档大小: $(format_size $output_size)"
   log_success "文档生成完成: $output_file"
+
+  # 更新去重记录
+  if [ "${ENABLE_DEDUP:-false}" = "true" ]; then
+    update_processed_commits || log_warn "去重记录更新失败"
+  fi
+}
+
+# 步骤6.5: 历史记录管理（可选）
+step_manage_history() {
+  if [ "${ENABLE_HISTORY:-false}" != "true" ]; then
+    log_debug "历史记录功能已禁用"
+    return 0
+  fi
+
+  ((STEP_CURRENT++))
+  log_step $STEP_CURRENT $STEP_TOTAL "管理历史记录..."
+
+  # 生成历史文档
+  if [ -f "$OUTPUT_PATH" ]; then
+    generate_history_document "$OUTPUT_PATH" || log_warn "历史文档生成失败"
+  fi
+
+  # 更新历史索引
+  if [ "${AUTO_UPDATE_INDEX:-true}" = "true" ]; then
+    update_history_index || log_warn "历史索引更新失败"
+  fi
+
+  # 清理过期历史
+  cleanup_old_history "${HISTORY_RETENTION_DAYS:-90}" || log_warn "历史清理失败"
+
+  # 维护最新文档符号链接
+  maintain_latest_link || log_warn "符号链接维护失败"
+
+  log_success "历史记录管理完成"
+  return 0
 }
 
 # 步骤7: 链接验证（可选）
@@ -312,15 +375,58 @@ main() {
   log_info "Free-Yangmao Pipeline 开始执行"
   log_info "======================================"
 
+  # 显示功能开关状态
+  if [ "${ENABLE_DEDUP:-false}" = "true" ]; then
+    log_info "去重功能: 已启用"
+  else
+    log_debug "去重功能: 已禁用"
+  fi
+
+  if [ "${ENABLE_HISTORY:-false}" = "true" ]; then
+    log_info "历史记录: 已启用 (保留 ${HISTORY_RETENTION_DAYS:-90} 天)"
+  else
+    log_debug "历史记录: 已禁用"
+  fi
+
+  # 执行步骤
   step_init
   step_get_commits
   step_filter_additions
+
+  # 去重检查（可选）
+  if [ "${ENABLE_DEDUP:-false}" = "true" ]; then
+    STEP_TOTAL=7
+    step_dedup_check
+
+    if [ "$SHOULD_SKIP_GENERATION" = "true" ]; then
+      log_info "======================================"
+      log_info "Pipeline 执行完成（跳过生成）"
+      log_info "======================================"
+      return 0
+    fi
+  fi
+
   step_get_details
   step_extract_services
   step_generate_document
 
+  # 历史记录管理（可选）
+  if [ "${ENABLE_HISTORY:-false}" = "true" ]; then
+    if [ "${ENABLE_DEDUP:-false}" = "true" ]; then
+      STEP_TOTAL=8
+    else
+      STEP_TOTAL=7
+    fi
+    step_manage_history
+  fi
+
+  # 链接验证（可选）
   if [ "${ENABLE_LINK_VALIDATION:-false}" = "true" ]; then
-    STEP_TOTAL=7
+    if [ "${ENABLE_HISTORY:-false}" = "true" ] || [ "${ENABLE_DEDUP:-false}" = "true" ]; then
+      STEP_TOTAL=$((STEP_TOTAL + 1))
+    else
+      STEP_TOTAL=7
+    fi
     step_validate_links
   fi
 

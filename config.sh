@@ -79,6 +79,29 @@ OUTPUT_FILENAME="${OUTPUT_FILENAME:-free-for-dev-最新资源.md}"
 # 输出文档路径
 OUTPUT_PATH="${OUTPUT_PATH:-${PROJECT_ROOT}/docs}/${OUTPUT_FILENAME}"
 
+#=========== 历史记录配置 ============
+# 是否启用历史记录（默认禁用，保持向后兼容）
+ENABLE_HISTORY="${ENABLE_HISTORY:-false}"
+
+# 历史保留天数（0=永久保留）
+HISTORY_RETENTION_DAYS="${HISTORY_RETENTION_DAYS:-90}"
+
+# 自动更新索引
+AUTO_UPDATE_INDEX="${AUTO_UPDATE_INDEX:-true}"
+
+# 历史文档目录
+HISTORY_DIR="${HISTORY_DIR:-${PROJECT_ROOT}/docs/history}"
+
+#=========== 去重配置 ============
+# 是否启用去重（默认禁用，保持向后兼容）
+ENABLE_DEDUP="${ENABLE_DEDUP:-false}"
+
+# 去重模式: strict（严格）, loose（宽松）
+DEDUP_MODE="${DEDUP_MODE:-strict}"
+
+# 无新内容时通知
+NOTIFY_NO_NEW_CONTENT="${NOTIFY_NO_NEW_CONTENT:-true}"
+
 #=========== 导出配置变量 ============
 export DAYS_AGO SINCE_DATE MAX_RESOURCES
 export INCLUDE_KEYWORDS EXCLUDE_KEYWORDS
@@ -88,3 +111,5 @@ export LINK_CHECK_CONCURRENCY
 export LOG_LEVEL ENABLE_TERMINAL_LOG ENABLE_FILE_LOG
 export PROJECT_ROOT DATA_DIR LOG_DIR TMP_DIR SCRIPT_DIR
 export OUTPUT_FILENAME OUTPUT_PATH
+export ENABLE_HISTORY HISTORY_RETENTION_DAYS AUTO_UPDATE_INDEX HISTORY_DIR
+export ENABLE_DEDUP DEDUP_MODE NOTIFY_NO_NEW_CONTENT

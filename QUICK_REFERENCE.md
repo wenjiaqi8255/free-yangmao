@@ -80,19 +80,57 @@ bash update.sh --verbose
 
 ---
 
+## 🆕 新功能（v1.1）
+
+### 历史记录功能
+保存每次生成的文档快照，支持查看历史变更。
+
+```bash
+# 启用历史记录
+ENABLE_HISTORY=true bash update.sh
+
+# 查看历史索引
+open docs/history/index.md
+```
+
+### 去重功能
+基于提交SHA判断是否有新内容，避免重复生成。
+
+```bash
+# 启用去重
+ENABLE_DEDUP=true bash update.sh
+```
+
+### 同时启用（推荐）
+```bash
+# 启用历史和去重
+ENABLE_HISTORY=true ENABLE_DEDUP=true bash update.sh
+```
+
+> **详细文档**: [docs/HISTORY_DEDUP.md](docs/HISTORY_DEDUP.md)
+
+---
+
 ## 📂 重要文件
 
 ### 脚本
 - `update.sh` - 一键更新脚本
 - `config.sh` - 配置文件
 - `scripts/run-pipeline.sh` - 主编排
+- `scripts/lib/dedup.sh` - 去重模块 ⭐
+- `scripts/lib/history.sh` - 历史管理模块 ⭐
 
 ### 文档
 - `docs/AUTOMATION.md` - 完整指南
 - `docs/TROUBLESHOOTING.md` - 故障排查
+- `docs/HISTORY_DEDUP.md` - 历史和去重详解 ⭐
 
 ### 日志
 - `logs/update-YYYY-MM-DD.log` - 每日执行日志
+
+### 数据
+- `data/processed-commits.json` - 去重记录 ⭐
+- `docs/history/` - 历史文档目录 ⭐
 
 ---
 
@@ -105,6 +143,9 @@ open docs/free-for-dev-最新资源.md
 
 # Linux
 xdg-open docs/free-for-dev-最新资源.md
+
+# 查看历史
+open docs/history/index.md
 ```
 
 ### 查看日志
@@ -114,6 +155,15 @@ cat logs/update-$(date +%Y-%m-%d).log
 
 # 实时监控
 tail -f logs/update-$(date +%Y-%m-%d).log
+```
+
+### 查看统计
+```bash
+# 去重统计
+cat data/processed-commits.json | jq '.last_run'
+
+# 历史文档数量
+find docs/history -name "*.md" -type f | grep -v index.md | wc -l
 ```
 
 ---
@@ -129,6 +179,9 @@ open docs/AUTOMATION.md
 
 # 故障排查
 open docs/TROUBLESHOOTING.md
+
+# 历史和去重功能
+open docs/HISTORY_DEDUP.md
 ```
 
 ---
@@ -141,4 +194,4 @@ open docs/TROUBLESHOOTING.md
 
 ---
 
-**快速参考卡版本**: v1.0 | **最后更新**: 2026-02-02
+**快速参考卡版本**: v1.1 | **最后更新**: 2026-02-02

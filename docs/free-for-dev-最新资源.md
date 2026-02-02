@@ -1,232 +1,1075 @@
-# free-for.dev 最近新增资源
+# Free-for-dev 最新资源
 
-> **整理日期**: 2026-02-02
-> **数据来源**: [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-> **Fork 仓库**: [jixserver/free-for-dev](https://github.com/jixserver/free-for-dev)
-
-本文档整理了 free-for.dev 仓库中最近新增的 **10 个开发者免费资源**，涵盖安全、API、自动化、设计等多个类别。
+**生成时间**: 2026-02-02 18:54:47
+**查询范围**: 最近 90 天
+**数据来源**: [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
 
 ---
 
-## 📋 资源列表
+# 资源详情
 
-### 🔒 1. Corgea - 自主安全平台
+**生成时间**: 2026-02-02 18:54:14
+**查询范围**: 最近 90 天
 
-- **链接**: https://corgea.com/
-- **类别**: Security
-- **添加日期**: 2026-02-02
+## Add Corgea to security tools list in README
+**日期**: 2026-02-02T12:48:49Z
+**提交**: faa2a82
 
-**服务描述**:
-免费自主安全平台，可自动发现、验证和修复 20+ 种语言和框架的不安全代码和包。集成 SAST、SCA、密钥扫描、容器扫描和基础设施即代码扫描于一体。
+{
+  "sha": "faa2a82291e355a2a7bbb84358f75281848bcd1c",
+  "node_id": "C_kwDOAe-sHdoAKGZhYTJhODIyOTFlMzU1YTJhN2JiYjg0MzU4Zjc1MjgxODQ4YmNkMWM",
+  "commit": {
+    "author": {
+      "name": "Ahmad Sadeddin",
+      "email": "asadeddin@gmail.com",
+      "date": "2026-02-02T12:48:49Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-02T12:48:49Z"
+    },
+    "message": "Add Corgea to security tools list in README\n\nAdded Corgea as a new security platform in the README.",
+    "tree": {
+      "sha": "8dc7b3e5770decf317e77161b6ef96d238e7fa7c",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/8dc7b3e5770decf317e77161b6ef96d238e7fa7c"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/faa2a82291e355a2a7bbb84358f75281848bcd1c",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpgJ0yCRC1aQ7uu5UhlAAAkOIQAJlULAQY59GyYESrEw4Ro2+A\nkQuazSB17Ps58dK1/71Nk38K9jbmzBoCBLyUTQdrKMJ+viBu1LTrMeanaUhnE3Rm\nq/yvVeZAHwt0LXxbzeywuyNbVVQk/LKuMhjirxFCfHql9OBIVRd5+BRQ52eqG7at\nuxDzXfzrngBNwee45KxlMC/3AgrgIUAn4pqr7Q+PHZY1kgFF8IyX9Kbu0FeQx7Mz\nJZfJIcHR9ekZNZjPWSj6iqD/1WmLA/5h6vPucm3dK1w1AlULkc2KgE4t+h6LgKcL\nlwwPrKGws1jGTux8A+SSv4sg83iUpM9Ca4mJ+/N51fTKK+JXR5pBpSJlPK2Sb39E\nUA5fHkh7PtvnHYDwkrSCZTFIPLZ1BWwvig2SJgpFIb4qoz0S7yQzfCpRsK5/f2vZ\nk3Ea2oOrneaZft8EXcPvBsFHyqg16bbUHQ/T5joBqQlVKnp8oVKSVI3JhSB8LJsW\n+3Pc+KAr9jScYdF5eJovjv8bcRXCcArfQ9CdMQoPW7zXcjuhKGwcBUfowmbiO/fX\nygYDOA0e+cRx8gMujNlB4HxhDWXOyE2KBDyu053DpXnALYfdnE4C7+uFAc1MIae7\nI/UZVjgoVRCrs8AD9t7A4+90rwKQkRpD3ilLw4NFjtCnkhQNjJRp56CCBx4Td83o\nYtlkk6SM0QYf9/rtNKpd\n=j+xj\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 8dc7b3e5770decf317e77161b6ef96d238e7fa7c\nparent e67f64535c75f5e512203db6c19c71953aa332c0\nauthor Ahmad Sadeddin <asadeddin@gmail.com> 1770036529 -0800\ncommitter GitHub <noreply@github.com> 1770036529 -0800\n\nAdd Corgea to security tools list in README\n\nAdded Corgea as a new security platform in the README.",
+      "verified_at": "2026-02-02T12:48:50Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/faa2a82291e355a2a7bbb84358f75281848bcd1c",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/faa2a82291e355a2a7bbb84358f75281848bcd1c",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/faa2a82291e355a2a7bbb84358f75281848bcd1c/comments",
+  "author": {
+    "login": "asadeddin",
+    "id": 1538486,
+    "node_id": "MDQ6VXNlcjE1Mzg0ODY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1538486?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/asadeddin",
+    "html_url": "https://github.com/asadeddin",
+    "followers_url": "https://api.github.com/users/asadeddin/followers",
+    "following_url": "https://api.github.com/users/asadeddin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/asadeddin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/asadeddin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/asadeddin/subscriptions",
+    "organizations_url": "https://api.github.com/users/asadeddin/orgs",
+    "repos_url": "https://api.github.com/users/asadeddin/repos",
+    "events_url": "https://api.github.com/users/asadeddin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/asadeddin/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e67f64535c75f5e512203db6c19c71953aa332c0",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/e67f64535c75f5e512203db6c19c71953aa332c0",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/e67f64535c75f5e512203db6c19c71953aa332c0"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "6550cbddb5e6c2e56a27723c00365f4401e927e5",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/faa2a82291e355a2a7bbb84358f75281848bcd1c/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/faa2a82291e355a2a7bbb84358f75281848bcd1c/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=faa2a82291e355a2a7bbb84358f75281848bcd1c",
+      "patch": "@@ -576,6 +576,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo\n \n   * [aikido.dev](https://www.aikido.dev) — All-in-one appsec platform covering SCA, SAST, CSPM, DAST, Secrets, IaC, Malware, Container scanning, EOL,... Free plan includes two users, scanning of 10 repos, 1 cloud, 2 containers & 1 domain.\n   * [CertKit](https://www.certkit.io/certificate-management) - Manage SSL Certificate issuance, renewal, and monitoring. Search the Certificate Transparency Logs. Free for 3 certificates and 1 user after the beta.\n+  * [Corgea](https://corgea.com/) - Free autonomous security platform that finds, validates and fixes insecure code and packages across +20 languages and frameworks. One platform that includes SAST, SCA, secrets, Contrainer and IaC scanning. \n   * [crypteron.com](https://www.crypteron.com/) — Cloud-first, developer-friendly security platform prevents data breaches in .NET and Java applications\n   * [CyberChef](https://gchq.github.io/CyberChef/) — A simple, intuitive web app for analyzing and decoding/encoding data without dealing with complex tools or programming languages. Like a Swiss army knife of cryptography & encryption. All features are free to use, with no limit. Open source if you wish to self-host.\n   * [Datree](https://www.datree.io/) — Open Source CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies"
+    }
+  ]
+}
+README.md: modified
 
-**免费层级**: ✨
-- ✅ 支持 20+ 编程语言和框架
-- ✅ SAST（静态应用安全测试）
-- ✅ SCA（软件组件分析）
-- ✅ 密钥扫描
-- ✅ 容器安全扫描
-- ✅ IaC（基础设施即代码）扫描
+## Add isroot.in to list of domains
+**日期**: 2026-02-01T05:44:15Z
+**提交**: 3a3c4d5
+
+{
+  "sha": "3a3c4d5047d38b029549db79e77ba4ed5bf526d1",
+  "node_id": "C_kwDOAe-sHdoAKDNhM2M0ZDUwNDdkMzhiMDI5NTQ5ZGI3OWU3N2JhNGVkNWJmNTI2ZDE",
+  "commit": {
+    "author": {
+      "name": "VIGNESH RATHOD",
+      "email": "105590547+VIGGU-7@users.noreply.github.com",
+      "date": "2026-02-01T05:44:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-01T05:44:15Z"
+    },
+    "message": "Add isroot.in to list of domains",
+    "tree": {
+      "sha": "33318e9cf03624a10d97a270fe89b5bf0267388c",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/33318e9cf03624a10d97a270fe89b5bf0267388c"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/3a3c4d5047d38b029549db79e77ba4ed5bf526d1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpfugvCRC1aQ7uu5UhlAAAtgwQAGWX4rOfBNLDuG+11z1oPIG4\ny0gggcL0ESoQDsPPJKcQYxNfgaZhJC95c0Xuhmu17CmWUPqnkLFG2zw8hAqKelGw\nMjwa55b+XfbjitYzGoPlRGcaLvGXLJTcfIIkyJdUBKfO50oqw6g2ri9bymY3u51M\nn1o+7HnLUe7VqT5orhzLpbaIxZOELr8P8MysHmldvo0vxnA8la97PK4jdKOj2gRL\nqd595CK1blyQFFem7wLWE5DDZweSuciZSW79BevzGg6ktByTMgbV1debE0NuVQk6\n+mXswEVn3UakoR853c3ZuCEhaK6Mfwm4Iu2iO5leiG3jVhD4SnStZkpUms24uO0T\nCwGXUk4cwPlC4cC0zj7fQ6DmXcTv5/tzVcpvcLvCm+cBn++x2/ScOQp8LCeFH/6P\nnyvAKXE2U0OnRd23Bkg6jwZOcZ4cFEzcUHnm3KAerBBBR8n1kPJDAG1nKQs6qVIN\n7p9JffCMyOFyYFKg6pCUio+s8hQt2L430p4Zow76LRiYtf7S6BH4OQ4KDnrgRD0/\nLEFl0AULkSgx3/3uRK5xMmh7+3BUjEp3R53q+FlWtjgg4qHN2b+zsdatJj2Gi04a\nKMLlNnJLsWXevaLtJMrYHZ/cAvxH4t+xxm8jYhz+Va95XGW1D9lWrol3Felhlt1e\nd59zPlYLnsy/16CeJ2H0\n=2sUj\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 33318e9cf03624a10d97a270fe89b5bf0267388c\nparent 65a9653202e2be48340b71df0b5504cd3906532e\nauthor VIGNESH RATHOD <105590547+VIGGU-7@users.noreply.github.com> 1769924655 +0530\ncommitter GitHub <noreply@github.com> 1769924655 +0530\n\nAdd isroot.in to list of domains",
+      "verified_at": "2026-02-01T05:44:16Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/3a3c4d5047d38b029549db79e77ba4ed5bf526d1",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/3a3c4d5047d38b029549db79e77ba4ed5bf526d1",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/3a3c4d5047d38b029549db79e77ba4ed5bf526d1/comments",
+  "author": {
+    "login": "VIGGU-7",
+    "id": 105590547,
+    "node_id": "U_kgDOBksvEw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/105590547?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/VIGGU-7",
+    "html_url": "https://github.com/VIGGU-7",
+    "followers_url": "https://api.github.com/users/VIGGU-7/followers",
+    "following_url": "https://api.github.com/users/VIGGU-7/following{/other_user}",
+    "gists_url": "https://api.github.com/users/VIGGU-7/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/VIGGU-7/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/VIGGU-7/subscriptions",
+    "organizations_url": "https://api.github.com/users/VIGGU-7/orgs",
+    "repos_url": "https://api.github.com/users/VIGGU-7/repos",
+    "events_url": "https://api.github.com/users/VIGGU-7/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/VIGGU-7/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "65a9653202e2be48340b71df0b5504cd3906532e",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/65a9653202e2be48340b71df0b5504cd3906532e",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/65a9653202e2be48340b71df0b5504cd3906532e"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "30dac0e9d9c74461351cab469e571f2594346415",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/3a3c4d5047d38b029549db79e77ba4ed5bf526d1/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/3a3c4d5047d38b029549db79e77ba4ed5bf526d1/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=3a3c4d5047d38b029549db79e77ba4ed5bf526d1",
+      "patch": "@@ -1108,6 +1108,7 @@ Update Time, five active automations, webhooks.\n ## Domain\n \n   * [DigitalPlat](https://domain.digitalplat.org) — Free subdomains.\n+  * [isroot.in](https://isroot.in) — Free isroot.in subdomains.\n   * [pp.ua](https://nic.ua/) — Free pp.ua subdomains.\n \n **[⬆️ Back to Top](#table-of-contents)**"
+    }
+  ]
+}
+README.md: modified
+
+## Adding Wraps.dev free saas platform for email automation
+**日期**: 2026-01-29T16:03:44Z
+**提交**: 28e3de5
+
+{
+  "sha": "28e3de561bd8e14509371f6a01a78dae38e436a9",
+  "node_id": "C_kwDOAe-sHdoAKDI4ZTNkZTU2MWJkOGUxNDUwOTM3MWY2YTAxYTc4ZGFlMzhlNDM2YTk",
+  "commit": {
+    "author": {
+      "name": "Jarod Stewart",
+      "email": "jarod@wraps.dev",
+      "date": "2026-01-29T16:03:44Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-29T16:03:44Z"
+    },
+    "message": "Adding Wraps.dev free saas platform for email automation\n\nwraps.dev email platform that sends through your AWS. Automations, templates, broadcasts—you own the infrastructure.",
+    "tree": {
+      "sha": "01bb585de1f3bc061118d3290639101ef077d128",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/01bb585de1f3bc061118d3290639101ef077d128"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/28e3de561bd8e14509371f6a01a78dae38e436a9",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpe4TgCRC1aQ7uu5UhlAAA9rkQAIQZZUXaQiinfpDq/255nKqW\nGxxPNSUbk26McgCET8QGsNCimhfaGVIyT+fzfmcFvxAr0/BMQxcRD0w5DAGNeTrT\nk2SyvN6muQEi55kWMCnADa+C1vGv3jQe08Ld4qKKB6eas6tG+jRX44jklFbVaZh8\nC0DnCWc+c8lUcxyuyeWsbAlILJGFHrFz9piwSYGEopH/KCyQRwNTKSyJVC9jgG0e\nzEo3GAVI9T+Imp43k2irwiB+oJMagLNssndk9ps9dNkyM8Igk42h5GfTbIHa+q7T\nrASfwc4iF/JD4Y4JurOZolM3SSDIpQJBAyZco5lsSOriUFksX5wN6nQDiFfoLkCc\nWDqAejx4iRxpYKvcCTDGkVGs76G8gd4nXJSkN+BuAkG4LzTa/XxZFhF2/RcaK9tp\n8rm/URlvXXgIAZ4bumOYvkrJqsV3kANUjmvBSInuenS78jd1R8HqVUEJhjwrEZJK\nwDozJh+U0u42eVKrSatNSJiipXuGZqxw6/hydPEbAUg5QrAEA5Td5PgnS3B3E7Ou\nUFmuksObg5wYCOanTWT2/RS0a4o6FjVn1V/WNt9f7Fq+mdNl/y2U4jHFBrHy2j2M\n+RyOOw5faocsq13dqFhDqCkkFWoxEG+X0UodflvMySO3mCNImvcs5ARG4eaEZTxG\n3fZQwQ9fL5MxcXnSZRe7\n=zjVt\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 01bb585de1f3bc061118d3290639101ef077d128\nparent 48321360cfe776ea0f47e63f157ce167cfa6229a\nauthor Jarod Stewart <jarod@wraps.dev> 1769702624 -0700\ncommitter GitHub <noreply@github.com> 1769702624 -0700\n\nAdding Wraps.dev free saas platform for email automation\n\nwraps.dev email platform that sends through your AWS. Automations, templates, broadcasts—you own the infrastructure.",
+      "verified_at": "2026-01-29T16:03:45Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/28e3de561bd8e14509371f6a01a78dae38e436a9",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/28e3de561bd8e14509371f6a01a78dae38e436a9",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/28e3de561bd8e14509371f6a01a78dae38e436a9/comments",
+  "author": {
+    "login": "stewartjarod",
+    "id": 949393,
+    "node_id": "MDQ6VXNlcjk0OTM5Mw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/949393?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/stewartjarod",
+    "html_url": "https://github.com/stewartjarod",
+    "followers_url": "https://api.github.com/users/stewartjarod/followers",
+    "following_url": "https://api.github.com/users/stewartjarod/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stewartjarod/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/stewartjarod/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/stewartjarod/subscriptions",
+    "organizations_url": "https://api.github.com/users/stewartjarod/orgs",
+    "repos_url": "https://api.github.com/users/stewartjarod/repos",
+    "events_url": "https://api.github.com/users/stewartjarod/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/stewartjarod/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "48321360cfe776ea0f47e63f157ce167cfa6229a",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/48321360cfe776ea0f47e63f157ce167cfa6229a",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/48321360cfe776ea0f47e63f157ce167cfa6229a"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "646952cd2bd22b85cf18582aef051211cf1e9f5f",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/28e3de561bd8e14509371f6a01a78dae38e436a9/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/28e3de561bd8e14509371f6a01a78dae38e436a9/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=28e3de561bd8e14509371f6a01a78dae38e436a9",
+      "patch": "@@ -872,6 +872,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo\n   * [Tuta](https://tuta.com/) - Free secure email account service provider with built-in end-to-end encryption, no ads, no tracking. Free 1GB storage, one calendar (Tuta also have an [paid plan](https://tuta.com/pricing).). Tuta is also partially [open source](https://github.com/tutao/tutanota), so you can self-host.\n   * [Verifalia](https://verifalia.com/email-verification-api) — Real-time email verification API with mailbox confirmation and disposable email address detector; 25 free email verifications/day.\n   * [verimail.io](https://verimail.io/) — Bulk and API email verification service. 100 free verifications/month\n+  * [Wraps](https://wraps.dev) - email automation workflows, 5k tracked events and unlimited contacts free.\n \n **[⬆️ Back to Top](#table-of-contents)**\n "
+    }
+  ]
+}
+README.md: modified
+
+## Add IP Geolocation API by ipwho.org to README
+**日期**: 2026-01-28T11:07:11Z
+**提交**: c5782ce
+
+{
+  "sha": "c5782cec5383913720ddeb704b000ea77170f231",
+  "node_id": "C_kwDOAe-sHdoAKGM1NzgyY2VjNTM4MzkxMzcyMGRkZWI3MDRiMDAwZWE3NzE3MGYyMzE",
+  "commit": {
+    "author": {
+      "name": "Gyanaa-Vaibahv",
+      "email": "57447831+Gyanaa-Vaibhav@users.noreply.github.com",
+      "date": "2026-01-28T11:07:11Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-28T11:07:11Z"
+    },
+    "message": "Add IP Geolocation API by ipwho.org to README",
+    "tree": {
+      "sha": "2487dce21ca3e6fa3b8a19f83a316a9fc585434f",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/2487dce21ca3e6fa3b8a19f83a316a9fc585434f"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/c5782cec5383913720ddeb704b000ea77170f231",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpee3fCRC1aQ7uu5UhlAAASWQQABzv+yCB5Q1SUxedeQDAH4ot\n5BjWK+EWaC8LIiz1VOHfzUtSwZuzhw2CWbog5/YmVQfamNDgg7eg5oIWJ+YwHiLl\nZA0qFqgw2gnc5Mz/kSzNU3d+gG2sKXRKma/vHcJScjMy1QLkgpELIGuyC+IgHTuI\na3r4w/yp0z+yuBTNB33A9az3iXEHCd0tkZolxUOSyUwZv9vrgPMEJOD2J96Wrg4U\n3uf5Ynyw6C9BG94WeptMA+5UM8qXP/DbgzVunlmVK6KrW5XXYfVVyMhMJoRQ8WTf\nIired/F45xxkEJ+AEqh1Es3Q6It1cnvyQZFRsi6gX8t6xNcC9AfBLBRWQ6sumqQ+\nkU+UPfehM/s2l5AfBLGwBzjr4LDRNxbA7frgLr5dQL/fbWc8/k3xDybuHZBpPyn0\nDha1Dqcz3AJ3SGKt+PqxhH24zJ2WBSVN52Fizy3TUw8qkYqiTbeDefbyFz63zCpi\nHQG0PhnLt1tPyd86DAPZovvVpIhGL5jiYc8kONEAxVzdCUaibBVAdnwQx5vEUIhm\nNuCrA3yRO0wjygWWkOQqUe1DyaqctuHuVqY0ZK/YtznNg3kcMnaC7oRZkVku7SRu\n3cTcBC2Kc0dnf2yARVyXvSEp99GMaJVtZWJisBjlwO5/2knDUIutlWO1Z1QUbQMJ\nQjHSSd/zgD9/py4Jl93N\n=/0Is\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 2487dce21ca3e6fa3b8a19f83a316a9fc585434f\nparent 0b8f8b050e88e065b10c9f0805ff10cbec2cc4fc\nauthor Gyanaa-Vaibahv <57447831+Gyanaa-Vaibhav@users.noreply.github.com> 1769598431 +0530\ncommitter GitHub <noreply@github.com> 1769598431 +0530\n\nAdd IP Geolocation API by ipwho.org to README",
+      "verified_at": "2026-01-28T11:07:12Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/c5782cec5383913720ddeb704b000ea77170f231",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/c5782cec5383913720ddeb704b000ea77170f231",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/c5782cec5383913720ddeb704b000ea77170f231/comments",
+  "author": {
+    "login": "Gyanaa-Vaibhav",
+    "id": 57447831,
+    "node_id": "MDQ6VXNlcjU3NDQ3ODMx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/57447831?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Gyanaa-Vaibhav",
+    "html_url": "https://github.com/Gyanaa-Vaibhav",
+    "followers_url": "https://api.github.com/users/Gyanaa-Vaibhav/followers",
+    "following_url": "https://api.github.com/users/Gyanaa-Vaibhav/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Gyanaa-Vaibhav/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Gyanaa-Vaibhav/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Gyanaa-Vaibhav/subscriptions",
+    "organizations_url": "https://api.github.com/users/Gyanaa-Vaibhav/orgs",
+    "repos_url": "https://api.github.com/users/Gyanaa-Vaibhav/repos",
+    "events_url": "https://api.github.com/users/Gyanaa-Vaibhav/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Gyanaa-Vaibhav/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0b8f8b050e88e065b10c9f0805ff10cbec2cc4fc",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/0b8f8b050e88e065b10c9f0805ff10cbec2cc4fc",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/0b8f8b050e88e065b10c9f0805ff10cbec2cc4fc"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "9dbc5298b99a1d497ec01639d3b4ee00cc00932e",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/c5782cec5383913720ddeb704b000ea77170f231/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/c5782cec5383913720ddeb704b000ea77170f231/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=c5782cec5383913720ddeb704b000ea77170f231",
+      "patch": "@@ -277,6 +277,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo\n   * [huggingface.co](https://huggingface.co) - Build, train, and deploy NLP models for Pytorch, TensorFlow, and JAX. Free up to 30k input characters/mo.\n   * [Insomnia](https://insomnia.rest) - Open-source API client for designing and testing APIs, it supports REST and GraphQL\n   * [Invantive Cloud](https://cloud.invantive.com/) — Access over 70 (cloud)platforms such as Exact Online, Twinfield, ActiveCampaign or Visma using Invantive SQL or OData4 (typically Power BI or Power Query). Includes data replication and exchange. Free plan for developers and implementation consultants. Free for specific platforms with limitations in data volumes.\n+  * [IP Geolocation API by ipwho.org](https://ipwho.org/) - 2,000 free requests per day. Fast, enterprise grade API at non-enterprise prices. Trusted by developers, corporate, government and education clients. Servers in 12+ regions.\n   * [IP Geolocation API](https://www.abstractapi.com/ip-geolocation-api) — IP Geolocation API from Abstract - Allows 1,000 free requests.\n   * [IP Geolocation](https://ipgeolocation.io/) — IP Geolocation API - Forever free plan for developers with a 1,000 requests per day limit.\n   * [ip-api](https://ip-api.com) — IP Geolocation API, Free for non-commercial use, no API key required, limited to 45 req/minute from the same IP address for the free plan."
+    }
+  ]
+}
+README.md: modified
+
+## Add Mockerito to APIs, Data, and ML section.
+**日期**: 2026-01-22T18:36:37Z
+**提交**: 9c986e1
+
+{
+  "sha": "9c986e1b14ed896bb3f73358f0663a0e2c09f67b",
+  "node_id": "C_kwDOAe-sHdoAKDljOTg2ZTFiMTRlZDg5NmJiM2Y3MzM1OGYwNjYzYTBlMmMwOWY2N2I",
+  "commit": {
+    "author": {
+      "name": "Jaroslav Avizen",
+      "email": "54904772+avizen-j@users.noreply.github.com",
+      "date": "2026-01-22T18:36:37Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-22T18:36:37Z"
+    },
+    "message": "Add Mockerito to APIs, Data, and ML section.",
+    "tree": {
+      "sha": "e6835ff471e8f9e679529548fc1034dd0fce01bd",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/e6835ff471e8f9e679529548fc1034dd0fce01bd"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/9c986e1b14ed896bb3f73358f0663a0e2c09f67b",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpcm42CRC1aQ7uu5UhlAAAHTgQADQEeRtDoswpak9jYQap+UTr\nAobYI+raGiG9nOKSaAz59DrQGAwYsFmzVS6bfCbbtQDQSfy+4OUUwpNTm1QPcDED\nBO/KWWi/guaHC7Q1OZN1882HTykoa3A3khnAUfM1VCFesz2BjPdK36pIE8OJJhhD\nyJXlmhAZRnZ32UXA9TIzU+E6NDzH19TUJsed39Tp5Huyn8NZBfSdGcNLCqi3lxJY\nELTdveMzEAc/88kKxHnwJfTBlgZMwBK/eEHIFsrxSBwB4CQ+KkFsc6XS+n8hm9Ja\nT+gf1DnK/BsEDTzCdEQ5oL66ReDkwYYDRckKR7qhyEx4d8QC7mqeyD96a7aITrUo\nfZ4VZMR5aRFVpLZ1xDeugklio3TTORtLkeReZZMkmjEh8dAqNrekOFN4exZA/W6d\nRVnXBAPlH6e20HtNcg7xTa1gh7qX3RCBHqqwQKn2zPStLcHbL+fDEPC7CIFRdRbC\nULqm2gUGHj+6EVhS4CLdoP0vlyvpaEccbvbs2QYrZaToxlDwQTKdIZDvYB8WIQZj\nzjVyh0hAFnOwQGIVAkspXejs1/GHqg/h5GHMWouKcl6aGa8BMkYBsm17Lx5MEnAQ\n6Ox/zIeNLVz0H3BSxFuG0SCiY/rkzpefsPC+WcaI/AQiJUpecRIdG+JcQ+ebgOAD\n/o4KFqJve5IERDReSyjC\n=jdtS\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree e6835ff471e8f9e679529548fc1034dd0fce01bd\nparent 37cf94f1c2608dc3d3da8dd19db2d01a8ed07ed1\nauthor Jaroslav Avizen <54904772+avizen-j@users.noreply.github.com> 1769106997 +0200\ncommitter GitHub <noreply@github.com> 1769106997 +0200\n\nAdd Mockerito to APIs, Data, and ML section.",
+      "verified_at": "2026-01-22T18:36:38Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/9c986e1b14ed896bb3f73358f0663a0e2c09f67b",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/9c986e1b14ed896bb3f73358f0663a0e2c09f67b",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/9c986e1b14ed896bb3f73358f0663a0e2c09f67b/comments",
+  "author": {
+    "login": "avizen-j",
+    "id": 54904772,
+    "node_id": "MDQ6VXNlcjU0OTA0Nzcy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/54904772?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/avizen-j",
+    "html_url": "https://github.com/avizen-j",
+    "followers_url": "https://api.github.com/users/avizen-j/followers",
+    "following_url": "https://api.github.com/users/avizen-j/following{/other_user}",
+    "gists_url": "https://api.github.com/users/avizen-j/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/avizen-j/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/avizen-j/subscriptions",
+    "organizations_url": "https://api.github.com/users/avizen-j/orgs",
+    "repos_url": "https://api.github.com/users/avizen-j/repos",
+    "events_url": "https://api.github.com/users/avizen-j/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/avizen-j/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "37cf94f1c2608dc3d3da8dd19db2d01a8ed07ed1",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/37cf94f1c2608dc3d3da8dd19db2d01a8ed07ed1",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/37cf94f1c2608dc3d3da8dd19db2d01a8ed07ed1"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "da9641ca3a3251d47353965580cc9efbba3cfeed",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/9c986e1b14ed896bb3f73358f0663a0e2c09f67b/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/9c986e1b14ed896bb3f73358f0663a0e2c09f67b/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=9c986e1b14ed896bb3f73358f0663a0e2c09f67b",
+      "patch": "@@ -303,6 +303,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo\n   * [microlink.io](https://microlink.io/) – It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities, or screenshots as a service. 50 requests per day, every day free.\n   * [Mintlify](https://mintlify.com) — Modern standard for API documentation. Beautiful and easy-to-maintain UI components, in-app search, and interactive playground. Free for 1 editor.\n   * [MockAPI](https://www.mockapi.io/) — MockAPI is a simple tool that lets you quickly mock up APIs, generate custom data, and perform operations using a RESTful interface. MockAPI is meant to be a prototyping/testing/learning tool. One project/2 resources per project for free.\n+  * [Mockerito](https://mockerito.com/) — Free mock REST API service providing realistic data across 9 domains (e-commerce, finance, healthcare, education, recruitment, social media, stock markets, weather, and aviation). No mandatory signup, no API keys, unlimited requests. Perfect for frontend prototyping, API testing, learning and teaching web development.\n   * [Mockfly](https://www.mockfly.dev/) — Mockfly is a trusted development tool for API mocking and feature flag management. Quickly generate and control mock APIs with an intuitive interface. The free tier offers 500 requests per day.\n   * [Mocko.dev](https://mocko.dev/) — Proxy your API, choose which endpoints to mock in the cloud and inspect traffic, for free. Speed up your development and integration tests.\n   * [Multi-Exit IP Address Checker](https://ip.alstra.ca/) —  A free and simple tool to check your exit IP address across multiple nodes and understand how your IP appears to different global regions and services. Useful for testing rule-based DNS splitting tools such as Control D."
+    }
+  ]
+}
+README.md: modified
+
+## Add TraceLog to Analytics, Events and Statistics
+**日期**: 2026-01-20T15:54:51Z
+**提交**: f7231f9
+
+{
+  "sha": "f7231f91dd8684af60e4731e33435232cee12377",
+  "node_id": "C_kwDOAe-sHdoAKGY3MjMxZjkxZGQ4Njg0YWY2MGU0NzMxZTMzNDM1MjMyY2VlMTIzNzc",
+  "commit": {
+    "author": {
+      "name": "Ignacio Cortes Garcia",
+      "email": "ncg2392@gmail.com",
+      "date": "2026-01-20T15:54:51Z"
+    },
+    "committer": {
+      "name": "Ignacio Cortes Garcia",
+      "email": "ncg2392@gmail.com",
+      "date": "2026-01-20T15:54:51Z"
+    },
+    "message": "Add TraceLog to Analytics, Events and Statistics",
+    "tree": {
+      "sha": "ebe70a58176c143a5d055f7cf6ae962f0930c95d",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/ebe70a58176c143a5d055f7cf6ae962f0930c95d"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/f7231f91dd8684af60e4731e33435232cee12377",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/f7231f91dd8684af60e4731e33435232cee12377",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/f7231f91dd8684af60e4731e33435232cee12377",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/f7231f91dd8684af60e4731e33435232cee12377/comments",
+  "author": {
+    "login": "nacorga",
+    "id": 32565809,
+    "node_id": "MDQ6VXNlcjMyNTY1ODA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32565809?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nacorga",
+    "html_url": "https://github.com/nacorga",
+    "followers_url": "https://api.github.com/users/nacorga/followers",
+    "following_url": "https://api.github.com/users/nacorga/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nacorga/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nacorga/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nacorga/subscriptions",
+    "organizations_url": "https://api.github.com/users/nacorga/orgs",
+    "repos_url": "https://api.github.com/users/nacorga/repos",
+    "events_url": "https://api.github.com/users/nacorga/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nacorga/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "nacorga",
+    "id": 32565809,
+    "node_id": "MDQ6VXNlcjMyNTY1ODA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32565809?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nacorga",
+    "html_url": "https://github.com/nacorga",
+    "followers_url": "https://api.github.com/users/nacorga/followers",
+    "following_url": "https://api.github.com/users/nacorga/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nacorga/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nacorga/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nacorga/subscriptions",
+    "organizations_url": "https://api.github.com/users/nacorga/orgs",
+    "repos_url": "https://api.github.com/users/nacorga/repos",
+    "events_url": "https://api.github.com/users/nacorga/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nacorga/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "472efb6e1e28eda4b0dbbceec91452e6314fb019",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/472efb6e1e28eda4b0dbbceec91452e6314fb019",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/472efb6e1e28eda4b0dbbceec91452e6314fb019"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "b8bdb8a3638c64b666a29f98e1c7bd369430693b",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/f7231f91dd8684af60e4731e33435232cee12377/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/f7231f91dd8684af60e4731e33435232cee12377/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=f7231f91dd8684af60e4731e33435232cee12377",
+      "patch": "@@ -1527,7 +1527,7 @@ Update Time, five active automations, webhooks.\n   * [Seline](https://seline.so) - Seline is a simple & private website and product analytics. Cookieless, lightweight, independent. Free plan includes 3,000 events per month and provides access to all our features, such as the dashboard, user journeys, funnels, and more.\n   * [StatCounter](https://statcounter.com/) — Website Viewer Analytics. Free plan for analytics of 500 most recent visitors.\n   * [Statsig](https://statsig.com) - All-in-one platform spanning across analytics, feature flagging, and A/B testing. Free for up to 1m metered events per month.\n-  * [TraceLog](https://tracelog.io/) - AI Analytics for E-commerce. Ask questions in natural language about your analytics, get actionable insights and grow your revenue with AI-powered inisghts and recommendations. Free for up to 10k events per month.\n+  * [TraceLog](https://tracelog.io/) - AI Analytics for E-commerce. Ask questions in natural language about your analytics, get actionable recommendations and grow your revenue with AI-powered insights. Free for up to 10k events per month.\n   * [Trackingplan](https://www.trackingplan.com/) - Automatically detect digital analytics, marketing data and pixels issues, maintain up-to-date tracking plans, and foster seamless collaboration. Deploy it to your production environment with real traffic or add analytics coverage to your regression tests without writing code.\n   * [TrackWith Dicloud](https://dicloud.net/trackwith-privacy-focused-analytics/) - Free lightweight privacy-focused alternative to Google Analytics. Unlimited pageviews, unlimited visitor, unlimited page heatmaps & goal tracking. Free for up to 3 domains and 600 session replay per domain.\n   * [Umami](https://umami.is/) - Simple, fast, privacy-focused, open-source alternative to Google Analytics."
+    }
+  ]
+}
+README.md: modified
+
+## Add TraceLog to Analytics, Events and Statistics
+**日期**: 2026-01-20T15:08:42Z
+**提交**: 472efb6
+
+{
+  "sha": "472efb6e1e28eda4b0dbbceec91452e6314fb019",
+  "node_id": "C_kwDOAe-sHdoAKDQ3MmVmYjZlMWUyOGVkYTRiMGRiYmNlZWM5MTQ1MmU2MzE0ZmIwMTk",
+  "commit": {
+    "author": {
+      "name": "Ignacio Cortes Garcia",
+      "email": "ncg2392@gmail.com",
+      "date": "2026-01-20T15:08:42Z"
+    },
+    "committer": {
+      "name": "Ignacio Cortes Garcia",
+      "email": "ncg2392@gmail.com",
+      "date": "2026-01-20T15:08:42Z"
+    },
+    "message": "Add TraceLog to Analytics, Events and Statistics",
+    "tree": {
+      "sha": "11508479cfdfea3cf549988b6040e851b2a4328b",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/11508479cfdfea3cf549988b6040e851b2a4328b"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/472efb6e1e28eda4b0dbbceec91452e6314fb019",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/472efb6e1e28eda4b0dbbceec91452e6314fb019",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/472efb6e1e28eda4b0dbbceec91452e6314fb019",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/472efb6e1e28eda4b0dbbceec91452e6314fb019/comments",
+  "author": {
+    "login": "nacorga",
+    "id": 32565809,
+    "node_id": "MDQ6VXNlcjMyNTY1ODA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32565809?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nacorga",
+    "html_url": "https://github.com/nacorga",
+    "followers_url": "https://api.github.com/users/nacorga/followers",
+    "following_url": "https://api.github.com/users/nacorga/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nacorga/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nacorga/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nacorga/subscriptions",
+    "organizations_url": "https://api.github.com/users/nacorga/orgs",
+    "repos_url": "https://api.github.com/users/nacorga/repos",
+    "events_url": "https://api.github.com/users/nacorga/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nacorga/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "nacorga",
+    "id": 32565809,
+    "node_id": "MDQ6VXNlcjMyNTY1ODA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32565809?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nacorga",
+    "html_url": "https://github.com/nacorga",
+    "followers_url": "https://api.github.com/users/nacorga/followers",
+    "following_url": "https://api.github.com/users/nacorga/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nacorga/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nacorga/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nacorga/subscriptions",
+    "organizations_url": "https://api.github.com/users/nacorga/orgs",
+    "repos_url": "https://api.github.com/users/nacorga/repos",
+    "events_url": "https://api.github.com/users/nacorga/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nacorga/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "d54706ad634d73f76f50ace8a4c97fdf5a289e78",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/d54706ad634d73f76f50ace8a4c97fdf5a289e78",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/d54706ad634d73f76f50ace8a4c97fdf5a289e78"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "c5ab66c9d5cc709a0bb2f9310dcb11e715202a73",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/472efb6e1e28eda4b0dbbceec91452e6314fb019/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/472efb6e1e28eda4b0dbbceec91452e6314fb019/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=472efb6e1e28eda4b0dbbceec91452e6314fb019",
+      "patch": "@@ -1527,6 +1527,7 @@ Update Time, five active automations, webhooks.\n   * [Seline](https://seline.so) - Seline is a simple & private website and product analytics. Cookieless, lightweight, independent. Free plan includes 3,000 events per month and provides access to all our features, such as the dashboard, user journeys, funnels, and more.\n   * [StatCounter](https://statcounter.com/) — Website Viewer Analytics. Free plan for analytics of 500 most recent visitors.\n   * [Statsig](https://statsig.com) - All-in-one platform spanning across analytics, feature flagging, and A/B testing. Free for up to 1m metered events per month.\n+  * [TraceLog](https://tracelog.io/) - AI Analytics for E-commerce. Ask questions in natural language about your analytics, get actionable insights and grow your revenue with AI-powered inisghts and recommendations. Free for up to 10k events per month.\n   * [Trackingplan](https://www.trackingplan.com/) - Automatically detect digital analytics, marketing data and pixels issues, maintain up-to-date tracking plans, and foster seamless collaboration. Deploy it to your production environment with real traffic or add analytics coverage to your regression tests without writing code.\n   * [TrackWith Dicloud](https://dicloud.net/trackwith-privacy-focused-analytics/) - Free lightweight privacy-focused alternative to Google Analytics. Unlimited pageviews, unlimited visitor, unlimited page heatmaps & goal tracking. Free for up to 3 domains and 600 session replay per domain.\n   * [Umami](https://umami.is/) - Simple, fast, privacy-focused, open-source alternative to Google Analytics."
+    }
+  ]
+}
+README.md: modified
+
+## Add Interactive CV to Education adn Career Development Sites
+**日期**: 2026-01-19T22:42:50Z
+**提交**: a941d49
+
+{
+  "sha": "a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8",
+  "node_id": "C_kwDOAe-sHdoAKGE5NDFkNDljM2MzZmE5OGM0MjVjYTQ1ZDViY2E1YjU1YmI3ZDRmZDg",
+  "commit": {
+    "author": {
+      "name": "pjmt86",
+      "email": "34477616+pjmt86@users.noreply.github.com",
+      "date": "2026-01-19T22:42:50Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-19T22:42:50Z"
+    },
+    "message": "Add Interactive CV to Education adn Career Development Sites\n\nAdded a new resource for AI-powered resume building.",
+    "tree": {
+      "sha": "4894a94d2a00630b7be9af0589b576217dce6262",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/4894a94d2a00630b7be9af0589b576217dce6262"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpbrNqCRC1aQ7uu5UhlAAAYpQQAHd/nfWSudouwspY6czW3S9q\nDXTUvrctp9si+35XVIP5byCExJIARCjCzrxWG9nZiLwkbc/OyfV6trLiw5WcJigG\nlA/s2/6l+0H9AhYhh9YxpWGtbm0IGoAZ6hq4xH5p1s4F0UoacXkAMQA9s6cxxODd\ntdAA8aSwhZoq3aSZf0R6yRHl4RQETbnAgrqFFTS2iZMZOQSjZ941IznxSRdT2DW6\nMGhP+hbfV5nXbVDfUm8bn+LSXBRuoP68iOJef/AQu6wByjx0JFuY+Az2dMU511SR\nf6Ca8cME6UIfAmP/USH4ye5gvOU8fBCMLn0W5Js1nRnIhbvPtgC7lAKjfIhbxDtt\nW0d6yENrNdGyIsQDdK+dcSzM5Telx/tAFixTJziOkAnC53fvF3iEoj7M8lKN+9fI\ngyCFiEyAU7NNpvSKdyq8u8hrUjsjIUyti88JXF4eBvK+vFXmRhkxgDiHgklzPk2+\nhKXLO/Byg12MbKIgIiY6UWycIdAqO928hRU6Ds0uEzcpl8Nqv3oxa2VbT7uxcB54\n1TiMG+0QKVlCKmJOFMVNgXNk5tXi8FLv4GClgq0N48VKpVW8DKpP9s/HWQjdzegY\nnR8dTJOjvATYp8HHtZ6h5efh0zwlGEFJUTXIeNktHkzmfaxMoKSkNXjLaLTV1IcZ\nN1KJ/bSYXBPzDfDALiYw\n=3tOK\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 4894a94d2a00630b7be9af0589b576217dce6262\nparent 4948c3f3c41cdad002a6c1410f69c581f7b7639f\nauthor pjmt86 <34477616+pjmt86@users.noreply.github.com> 1768862570 +0100\ncommitter GitHub <noreply@github.com> 1768862570 +0100\n\nAdd Interactive CV to Education adn Career Development Sites\n\nAdded a new resource for AI-powered resume building.",
+      "verified_at": "2026-01-19T22:42:51Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8/comments",
+  "author": {
+    "login": "pjmt86",
+    "id": 34477616,
+    "node_id": "MDQ6VXNlcjM0NDc3NjE2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34477616?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pjmt86",
+    "html_url": "https://github.com/pjmt86",
+    "followers_url": "https://api.github.com/users/pjmt86/followers",
+    "following_url": "https://api.github.com/users/pjmt86/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pjmt86/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pjmt86/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pjmt86/subscriptions",
+    "organizations_url": "https://api.github.com/users/pjmt86/orgs",
+    "repos_url": "https://api.github.com/users/pjmt86/repos",
+    "events_url": "https://api.github.com/users/pjmt86/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pjmt86/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4948c3f3c41cdad002a6c1410f69c581f7b7639f",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/4948c3f3c41cdad002a6c1410f69c581f7b7639f",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/4948c3f3c41cdad002a6c1410f69c581f7b7639f"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "627ef9ddf6997c9039f902c83d30b9b0061157d0",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=a941d49c3c3fa98c425ca45d5bca5b55bb7d4fd8",
+      "patch": "@@ -806,6 +806,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo\n   * [Free Professional Resume Templates & Editor](https://www.overleaf.com/latex/templates/tagged/cv) - Free platform with lots of Resume templates of Experienced Professionals, ready to clone and edit fully and download, ATS optimized.\n   * [FreeCodeCamp](https://www.freecodecamp.org/) - Open-source platform offering free courses and certifications in Data Analysis, Information Security, Web Development, and more.\n   * [Full Stack Open](https://fullstackopen.com/en/) – Free university-level course on modern web development with React, Node.js, GraphQL, TypeScript, and more. Fully online and self-paced.\n+  * [Interactive CV](https://interactive-cv.com) — AI-powered resume builder with real-time editing and ATS optimization. Free tier includes automatic CV conversion to premium templates (Harvard, Europass), PDF export, job tracker with unlimited job posting insights and CV sharing with chat/voice features.\n   * [Khan Academy](https://www.khanacademy.org/computing/computer-programming) - Free online guides for learning basic and advanced HTML/CSS, JavaScript and SQL.\n   * [LabEx](https://labex.io) - Develop skills in Linux, DevOps, Cybersecurity, Programming, Data Science, and more through interactive labs and real-world projects.\n   * [MIT OpenCourseWare](https://ocw.mit.edu/) - MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world. Youtube channel can be found at [@mitocw](https://www.youtube.com/@mitocw/featured)"
+    }
+  ]
+}
+README.md: modified
+
+## Add JustBlogged.com to Dev Blogging Sites
+**日期**: 2026-01-18T18:41:22Z
+**提交**: d18b725
+
+{
+  "sha": "d18b7251bacd47f0056b2f5c55560d29af272124",
+  "node_id": "C_kwDOAe-sHdoAKGQxOGI3MjUxYmFjZDQ3ZjAwNTZiMmY1YzU1NTYwZDI5YWYyNzIxMjQ",
+  "commit": {
+    "author": {
+      "name": "Usama Ejaz",
+      "email": "osamaejaz1@gmail.com",
+      "date": "2026-01-18T18:41:22Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-18T18:41:22Z"
+    },
+    "message": "Add JustBlogged.com to Dev Blogging Sites\n\nAdded JustBlogged - a free blogging platform with custom domain support, built-in SEO, and global CDN via Cloudflare Workers.  All features are free forever with no trial limitations.",
+    "tree": {
+      "sha": "07782e19f523324139e21f3b23232a5b8d8c0817",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/trees/07782e19f523324139e21f3b23232a5b8d8c0817"
+    },
+    "url": "https://api.github.com/repos/ripienaar/free-for-dev/git/commits/d18b7251bacd47f0056b2f5c55560d29af272124",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpbSlSCRC1aQ7uu5UhlAAAGDUQABTdDSWDXGlAlK1l8BNzC8ol\nxxVjk59+hxr2BpAaLPAdeN1pJdAosyyYG+K1A4WxzXNQDS89Pyr2NgcVZnAsfXLC\nJzc46ghLAZmmSO90Y1fSLtI3kj/9CSXbsrLTacpPx5O1yJ95BNidWV0QVygatAVo\nnAIC9xTaXQicoUg15KbF02QuoLDzNnsPndvVc1nCxmNhsRN7UYFBhR4n8g7D4akF\ntExYXgnNg7ZZMOZXFfGrog8UCPoo5Tb/SArg6vgHLFLGcWT0K6cUTzBGRZZkhx20\na+k/90ffC8xN7LOT8K9sUpFr7DnUNAYinZsIQ8pW67ZnfUeRDoPnxiQ++UsZty6g\nOhz5i3ayO2ItYHD2zjAYfK2HAcq8eFUKntLkeUlehd5L9ylLHoqU+Lt8cqDYw/AF\neQiIs/v+TpULV2wfILGxExuwUEp92Ow2OfQvYIThW+pjAHZYjginNfLYOM5FNUsG\nu0c88/aiahxStlU4eAapY9zb+HThzJMH3FPpsEAR9HYuCeQ7oi3DM9Gi5APk3Nh3\n3jAbvwbGbWdlTO8zJUe/btPRu2l1EuyMUlwz3IX8mVgC1+2ArauqCoI0LYiwEd81\n3mABXl/0eoFRyejIut/rE21mTDYYkk3DI4qye7reJiGtUPgAUWhaA6OIcs2Wg+en\n1DxIFtcgCjVoXEshy2EO\n=biym\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 07782e19f523324139e21f3b23232a5b8d8c0817\nparent 43b1f966d6e107cf86297b4079a85c3386d9e547\nauthor Usama Ejaz <osamaejaz1@gmail.com> 1768761682 +0500\ncommitter GitHub <noreply@github.com> 1768761682 +0500\n\nAdd JustBlogged.com to Dev Blogging Sites\n\nAdded JustBlogged - a free blogging platform with custom domain support, built-in SEO, and global CDN via Cloudflare Workers.  All features are free forever with no trial limitations.",
+      "verified_at": "2026-01-18T18:41:23Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/d18b7251bacd47f0056b2f5c55560d29af272124",
+  "html_url": "https://github.com/ripienaar/free-for-dev/commit/d18b7251bacd47f0056b2f5c55560d29af272124",
+  "comments_url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/d18b7251bacd47f0056b2f5c55560d29af272124/comments",
+  "author": {
+    "login": "usamaejaz",
+    "id": 9406823,
+    "node_id": "MDQ6VXNlcjk0MDY4MjM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9406823?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/usamaejaz",
+    "html_url": "https://github.com/usamaejaz",
+    "followers_url": "https://api.github.com/users/usamaejaz/followers",
+    "following_url": "https://api.github.com/users/usamaejaz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/usamaejaz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/usamaejaz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/usamaejaz/subscriptions",
+    "organizations_url": "https://api.github.com/users/usamaejaz/orgs",
+    "repos_url": "https://api.github.com/users/usamaejaz/repos",
+    "events_url": "https://api.github.com/users/usamaejaz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/usamaejaz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "43b1f966d6e107cf86297b4079a85c3386d9e547",
+      "url": "https://api.github.com/repos/ripienaar/free-for-dev/commits/43b1f966d6e107cf86297b4079a85c3386d9e547",
+      "html_url": "https://github.com/ripienaar/free-for-dev/commit/43b1f966d6e107cf86297b4079a85c3386d9e547"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "be824268181d3f8e2ca7db77b178f442839ff8b5",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ripienaar/free-for-dev/blob/d18b7251bacd47f0056b2f5c55560d29af272124/README.md",
+      "raw_url": "https://github.com/ripienaar/free-for-dev/raw/d18b7251bacd47f0056b2f5c55560d29af272124/README.md",
+      "contents_url": "https://api.github.com/repos/ripienaar/free-for-dev/contents/README.md?ref=d18b7251bacd47f0056b2f5c55560d29af272124",
+      "patch": "@@ -1593,6 +1593,7 @@ Update Time, five active automations, webhooks.\n   * [Dev.to](https://dev.to/) - Where programmers share ideas and help each other grow.\n   * [Hashnode](https://hashnode.com/) — Hassle-free Blogging Software for Developers!.\n   * [Medium](https://medium.com/) — Get more thoughtful about what matters to you.\n+  * [JustBlogged](https://justblogged.com) — Free blogging platform with custom domain support, and fast global performance.\n \n **[⬆️ Back to Top](#table-of-contents)**\n "
+    }
+  ]
+}
+_无文件变更信息_
+
+## Add Volume to Design and UI
+**日期**: 2026-01-15T14:03:56Z
+**提交**: c97715d
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:19] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:19] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:22] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:22] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:24] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:24] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+## Add ETLR to BaaS list
+**日期**: 2026-01-09T14:59:33Z
+**提交**: 509958b
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:24] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:24] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:26] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:26] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:28] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:28] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+## Added kogiQA
+**日期**: 2026-01-07T14:38:32Z
+**提交**: 6a8aec4
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:28] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:28] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:30] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:30] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:33] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:33] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+## add subdomain provider 'digitalplat'
+**日期**: 2026-01-07T12:07:49Z
+**提交**: 19f14c5
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:33] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:33] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:35] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:35] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:37] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:37] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+## Add RunMyJob to the list of automation tools
+**日期**: 2026-01-06T12:49:50Z
+**提交**: b67ca77
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:37] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:37] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:40] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:40] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:42] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:42] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+## add railway to paas section
+**日期**: 2026-01-05T02:00:22Z
+**提交**: 24bb393
+
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:42] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:42] 命令执行失败，2秒后重试 (尝试 1/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:44] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;33m[WARN 2026-02-02 18:54:44] 命令执行失败，2秒后重试 (尝试 2/3)...[0m
+{"message":"API rate limit exceeded for 82.135.83.201. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+[0;33m[WARN 2026-02-02 18:54:46] API限流 (HTTP 403)，可能需要稍后重试[0m
+[0;31m[ERROR 2026-02-02 18:54:46] 命令执行失败，已达最大重试次数[0m
+_获取详情失败_
+
+
+# 提取的服务内容
+
+**生成时间**: 2026-02-02 18:54:47
+
 
 ---
 
-### 🌐 2. isroot.in - 免费子域名
-
-- **链接**: https://isroot.in
-- **类别**: Domains
-- **添加日期**: 2026-02-01
-
-**服务描述**:
-提供免费子域名服务。
-
-**免费层级**: ✨
-- ✅ 免费子域名
-
----
-
-### 📧 3. Wraps - 邮件自动化平台
-
-- **链接**: https://wraps.dev
-- **类别**: Email Automation
-- **添加日期**: 2026-01-29
-
-**服务描述**:
-邮件自动化工作流平台，帮助开发者构建自动化邮件营销和通知系统。
-
-**免费层级**: ✨
-- ✅ 5,000 个追踪事件/月
-- ✅ 无限联系人数量
-- ✅ 邮件自动化工作流
-
----
-
-### 🌍 4. IP Geolocation API by ipwho.org - IP 地理位置 API
-
-- **链接**: https://ipwho.org/
-- **类别**: APIs
-- **添加日期**: 2026-01-28
-
-**服务描述**:
-企业级 IP 地理位置定位 API，以非企业级价格提供服务。受到开发者、企业、政府和教育客户的信任。
-
-**免费层级**: ✨
-- ✅ **2,000 次免费请求/天**
-- ✅ 快速企业级 API
-- ✅ 12+ 个地区的服务器
-- ✅ 高精度地理位置数据
-
----
-
-### 🔄 5. Mockerito - 模拟 REST API 服务
-
-- **链接**: https://mockerito.com/
-- **类别**: APIs, Data, and ML
-- **添加日期**: 2026-01-22
-
-**服务描述**:
-免费模拟 REST API 服务，提供 9 个领域的真实数据（电商、金融、医疗、教育、招聘、社交媒体、股市、天气和航空）。非常适合前端原型开发、API 测试、Web 开发学习和教学。
-
-**免费层级**: ✨
-- ✅ **无需注册即可使用**
-- ✅ **无需 API 密钥**
-- ✅ **无限请求次数**
-- ✅ 9 个领域数据：
-  - 电商（E-commerce）
-  - 金融（Finance）
-  - 医疗（Healthcare）
-  - 教育（Education）
-  - 招聘（Recruitment）
-  - 社交媒体（Social Media）
-  - 股市（Stock Markets）
-  - 天气（Weather）
-  - 航空（Aviation）
-
----
-
-### 📊 6. TraceLog - AI 电商分析
-
-- **链接**: https://tracelog.io/
-- **类别**: Analytics, Events and Statistics
-- **添加日期**: 2026-01-20
-
-**服务描述**:
-面向电商的 AI 分析平台。使用自然语言询问分析问题，获取可操作的洞察，通过 AI 驱动的洞察和建议来提升收入。
-
-**免费层级**: ✨
-- ✅ **每月 10,000 个事件免费**
-- ✅ AI 驱动的分析
-- ✅ 自然语言查询
-- ✅ 可操作的洞察和建议
-- ✅ 电商专属功能
-
----
-
-### 📄 7. Interactive CV - AI 简历生成器
-
-- **链接**: https://interactive-cv.com
-- **类别**: Education and Career Development
-- **添加日期**: 2026-01-19
-
-**服务描述**:
-AI 驱动的简历生成器，支持实时编辑和 ATS（申请追踪系统）优化。
-
-**免费层级**: ✨
-- ✅ 自动转换为高级简历模板（Harvard、Europass 等）
-- ✅ PDF 导出
-- ✅ 职位追踪器（无限职位发布洞察）
-- ✅ 简历分享（聊天/语音功能）
-- ✅ 实时编辑
-- ✅ ATS 优化
-
----
-
-### ✍️ 8. JustBlogged - 免费博客平台
-
-- **链接**: https://justblogged.com
-- **类别**: Blogging Platforms
-- **添加日期**: 2026-01-18
-
-**服务描述**:
-免费博客平台，支持自定义域名和全球快速性能。
-
-**免费层级**: ✨
-- ✅ 免费托管
-- ✅ 自定义域名支持
-- ✅ 全球快速性能
-
----
-
-### 🎨 9. Volume - OKLCH 颜色选择器
-
-- **链接**: https://volumecolor.io
-- **类别**: Design and UI
-- **添加日期**: 2026-01-15
-
-**服务描述**:
-基于 OKLCH 颜色空间的颜色选择器和调色板生成器。
-
-**免费层级**: ✨
-- ✅ OKLCH 颜色选择器
-- ✅ 调色板生成器
-- ✅ 现代颜色空间支持
-
----
-
-### ⚙️ 10. ETLR - 自动化脚本平台
-
-- **链接**: https://etlr.io
-- **类别**: BaaS (Backend as a Service)
-- **添加日期**: 2026-01-09
-
-**服务描述**:
-使用 YAML 定义、版本控制和部署自动化脚本的开发者优先平台。拖放式工具的替代方案，可用于定时任务、AI 智能体和基础设施监控。
-
-**免费层级**: ✨
-- ✅ **100 积分/月**
-- ✅ 基于 YAML 的自动化脚本
-- ✅ 脚本版本控制
-- ✅ 应用场景：
-  - 定时任务
-  - AI 智能体
-  - 基础设施监控
-
----
-
-## 📊 类别统计
-
-| 类别 | 数量 |
-|------|------|
-| Security | 1 |
-| Domains | 1 |
-| Email Automation | 1 |
-| APIs | 2 |
-| Analytics | 1 |
-| Education & Career | 1 |
-| Blogging Platforms | 1 |
-| Design & UI | 1 |
-| BaaS | 1 |
-
----
-
-## 🔗 相关链接
-
-- 📚 [原始仓库 - ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- 📖 [完整 README 文档](https://github.com/ripienaar/free-for-dev/blob/master/README.md)
-- 🔱 [Fork 仓库 - jixserver/free-for-dev](https://github.com/jixserver/free-for-dev)
-
----
-
-## 📝 说明
-
-本文档通过分析 free-for-dev 仓库的 Git 提交历史自动生成，提取了最近新增的 10 个开发者免费资源。所有信息均来自官方仓库的提交记录。
-
-**生成时间**: 2026-02-02
-**数据来源**: GitHub API + Git diff
-**整理方法**: 提取最近 3 个月包含 "Add" 关键字的提交，排除 Merge 和 Update 类提交
-
----
-
-<div align="center">
-
-**⭐ 如果觉得有用，请给 [free-for-dev](https://github.com/ripienaar/free-for-dev) 一个 Star！**
-
-</div>
+**说明**: 本文档由 [Free-Yangmao](https://github.com/YOUR_USERNAME/free-yangmao) 自动生成。
